@@ -1,14 +1,17 @@
+import math
+
+
 class Circle:
     def __init__(self, radius):
         self.radius = radius
 
     def area(self):
-        pi = self.radius * self.radius * 3.14  # 半径
-        return round(pi, 2)
+        pi = self.radius * self.radius * math.pi  # 半径
+        return f"{pi:.2f}"
 
     def perimeter(self):
-        circle = self.radius * 2 * 3.14
-        return round(circle, 2)
+        circle = self.radius * 2 * math.pi
+        return f"{circle:.2f}"
 
 
 # 半径1の円
