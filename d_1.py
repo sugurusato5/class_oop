@@ -7,7 +7,7 @@ class Circle:
         return round(pi, 2)
 
     def perimeter(self):
-        circle = self.radius * 2 * 3.14 
+        circle = self.radius * 2 * 3.14
         return round(circle, 2)
 
 
